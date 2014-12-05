@@ -1,0 +1,18 @@
+Package: spatialboost
+Title: Spatial Boost Model for GWAS
+Version: 0.1
+Date: 2014-11-29
+Author: Ian Johnston
+Maintainer: Ian Johnston <ianj@math.bu.edu>
+Description: This package provides the necessary functions to
+    fit the spatial boost model to binary traits in
+    genome-wide association data sets. For more
+    information about the model, please see the
+    article: http://arxiv.org/pdf/1311.0431v1.pdf
+Depends:
+    car,
+    corpcor,
+    snow,
+    rlecuyer
+License: GPL-3
+LazyData: true
